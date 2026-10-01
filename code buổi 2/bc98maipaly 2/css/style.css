@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid black;
+}
+
+.header__content {
+  background-color: orange;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  text-decoration: none;
+  color: white;
+  font-size: 32px;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu li {
+  display: inline;
+  margin-left: 32px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
+
+.menu li a.active {
+  color: red !important;
+}
+
+.menu li a:hover {
+  color: red;
+}
